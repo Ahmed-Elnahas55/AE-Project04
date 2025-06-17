@@ -1,317 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>project-4</title>
-         <!-- Render All Elements Normally -->
-         <link rel="stylesheet" href="Css/normalize.css">
-         <!-- font Awesome Library -->
-         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-         <!-- main project css -->
-         <link rel="stylesheet" href="Css/style.css">
-         <!-- Google Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&#038;display=swap" rel="stylesheet" />
-    </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AE folio</title>
+  <link rel="icon" href="Image/logo-icon.png">
+  <!-- Render All Elements Normally -->
+  <link rel="stylesheet" href="Css/normalize.css">
+  <!-- font Awesome Library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- main project css -->
+  <link rel="stylesheet" href="Css/Style.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&#038;display=swap" rel="stylesheet" />
+</head>
 <body>
-  <!-- start header -->
-  <div class="header" id="Home">
+  <div class="header">
     <div class="container">
-      <nav>
-        <h1>Elnahas</h1>
-        <i class="fas fa-bars toggle-menu"></i>
-        <ul>
-          <li ><a href="#" class="active">Home</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#why">Why Us</a></li>
-          <li><a href="#Team">Team</a></li>
-          <li><a href="#"><i class="fa-solid fa-user user"></i>Login</a></li>
-          <i class="fa-solid fa-magnifying-glass" id="I"></i>
+      <div class="logo">
+        <img src="Image/logo.png" loading="lazy">
+      </div>
+        <ul class="main-nav">
+          <a href="#Home" class="active"><li>Home</li></a>
+          <a href="#About"><li>About</li></a>
+          <a href="#Skills"><li>Skills</li></a>
+          <a href="#Projects"><li>Projects</li></a>
+          <a href="#Contact"><li>Contact</li></a>
         </ul>
-      </nav>
-        <div class="parent">
-          <div class="text">
-            <h1>Crypto Currency</h1>
-            <p>Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.</p>
-            <a href="#">Read me</a>
-          </div>
-          <div class="image">
-            <img src="images/slider-img.png" loading="lazy">
-          </div>
-        </div>
     </div>
   </div>
-  <!-- End header -->
-   <!-- start services -->
-    <div class="services" id="services">
-      <div class="main-title">
-        <h2>Our <span>Services</span></h2>
-        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration</p>
+  <!-- strat loading -->
+   <div class="loading item from-left">
+    <div class="container">
+      <div class="text">
+      <h1>I'm Ahmed <span>Ashraf</span></h1>
+      <p>Frontend Developer</p>
+      <a href="#Contact">Contact Me</a>
       </div>
-      <div class="container">
-        <div class="box">
-          <img src="images/s1.png" loading="lazy">
-          <h2>Currency Wallet</h2>
-          <p>fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using</p>
-          <a href="#">Read More</a>
-        </div>
-        <div class="box">
-          <img src="images/s2.png" loading="lazy">
-          <h2>Security Storage</h2>
-          <p>fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using</p>
-          <a href="#">Read More</a>
-        </div>
-        <div class="box">
-          <img src="images/s3.png" loading="lazy">
-          <h2>Expert Support</h2>
-          <p>fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using</p>
-          <a href="#">Read More</a>
-        </div>
-      </div>
-      <div class="btn">
-          <a href="#">View All</a>
+      <div class="image">
+        <img src="Image/main.png" loading="lazy">
       </div>
     </div>
-   <!-- End services -->
-    <!-- start About -->
-     <div class="about" id="about">
-      <div class="main-title">
-        <h2 style="color: white;">About <span>Us</span></h2>
-        <p style="color: white;">Magni quod blanditiis non minus sed aut voluptatum illum quisquam aspernatur ullam vel beatae rerum ipsum voluptatibus</p>
+   </div>
+  <!-- End loading -->
+  <!-- start About -->
+   <div class="about item from-left" id="About">
+    <div class="main-title">About Me</div>
+    <div class="container">
+      <div class="img">
+        <img src="Image/About.jpg" loading="lazy">
       </div>
+      <div class="text">
+        <h2>Summary</h2>
+        <p>Fresh and passionate Frontend Developer with a strong foundation in modern web technologies. Focused on building responsive, user-friendly interfaces and continuously improving through learning and practice.</p>
+        <a href="AE-CV.pdf" target="_blank">Download_Cv</a>
+      </div>
+    </div>
+   </div>
+  <!-- End About -->
+   <!-- strat Skills -->
+    <div class="skills item from-left" id="Skills">
+      <div class="main-title">My Skills</div>
       <div class="container">
-        <div class="image">
-          <img src="images/about-img.png" loading="lazy">
+        <div class="box">
+          <i class="fa-brands fa-html5" style="color: #e5532d;"></i>
+          <p>HTML</p>
         </div>
-        <div class="text">
-          <h3>We Are Finexo</h3>
-          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All</p>
-          <p>Molestiae odio earum non qui cumque provident voluptates, repellendus exercitationem, possimus at iste corrupti officiis unde alias eius ducimus reiciendis soluta eveniet. Nobis ullam ab omnis quasi expedita.</p>
-          <a href="#">Read More</a>
+        <div class="box">
+          <i class="fa-brands fa-css3-alt" style="color: #265aea;"></i>
+          <p>CSS</p>
         </div>
+        <div class="box">
+          <i class="fa-brands fa-js" style="color: #f0dc55;"></i>
+          <p>JAVASCRIPT</p>
+        </div>
+        <div class="box">
+          <i class="fa-brands fa-bootstrap" style="color: #7818f7;"></i>
+          <p>BOOTSTRAP</p>
+        </div>
+        <div class="box">
+          <i class="fa-brands fa-react" style="color: #66dbfb;"></i>
+          <p>REACT.JS</p>
+        </div>
+      </div>
+      <a href="#">More Skills</a>
+    </div>
+   <!-- End Skills -->
+    <!-- start Projects -->
+     <div class="project item from-left" id="Projects">
+      <div class="main-title">My Projects</div>
+      <div class="container">
+        <div class="box">
+          <img src="Image/project1.jpg" loading="lazy">
+          <p>Design a simple personal page that shows a brief about the site owner (Ahmed Ashraf), displays the name and job title, and a contact button.</p>
+          <a href=" https://ahmed-elnahas55.github.io/AE-project01/" target="_blank" class="btn">Live Demo</a>
+        </div>                  
+        <div class="box">
+          <img src="Image/project2.jpg" loading="lazy">
+          <p>Create a modern and attractive profile page that displays basic information about the developer Ahmed El Nahhas and provides an interactive user experience.</p>
+          <a href="https://ahmed-elnahas55.github.io/AE-Project02/" target="_blank" class="btn">Live Demo</a>
+        </div>                  
+        <div class="box">
+          <img src="Image/progrct-3.png" loading="lazy">
+          <p>A website for a Ka-Tajribeh company showing sections that include the number of employees, who they are, and what packages the company offers.</p>
+          <a href="https://ahmed-elnahas55.github.io/AE-project03/" target="_blank" class="bt">Live Demo</a>
+        </div>                  
+        <div class="box">
+          <img src="Image/project4.jpg" loading="lazy">
+          <p>Simple and stylish login/signup interface tailored for a project management app.</p>
+          <a href="https://ahmed-elnahas55.github.io/AE-Project04/" target="_blank" class="btn">Live Demo</a>
+        </div>                  
+        <div class="box">
+          <img src="Image/project5.png" loading="lazy">
+          <p>Simple and modern login page with social login options and a signup link</p>
+          <a href="https://ahmed-elnahas55.github.io/AE-Project5/" target="_blank" class="btn">Live Demo</a>
+        </div>                  
       </div>
      </div>
-    <!-- End About -->
-     <!-- start Why -->
-      <div class="Why" id="why">
-        <div class="main-title">
-          <h2>Why Choose <span>Us</span></h2>
-        </div>
+    <!-- End Projects -->
+     <!-- start contact -->
+      <div class="contact item from-left" id="Contact">
+      <div class="main-title">Contact Me</div>
         <div class="container">
           <div class="box">
-            <div class="img">
-              <img src="images/w1.png" loading="lazy">
+            <div class="content">
+              <div class="details">
+                <i class="fa-solid fa-phone"></i>
+                <div class="info">+201159725414</div>
+              </div>
+              <div class="details">
+                <i class="fa-solid fa-envelope"></i>
+                <div class="info">ahmedelnahas55u@gmail.com</div>
+              </div>
+              <div class="details">
+                <i class="fa-solid fa-location-dot"></i>
+                <div class="info">Egypt-ElGarbiea-Tanta</div>
+              </div>
+              <div class="social-icon">
+                <ul>
+                  <a href="https://www.facebook.com/ahmed.a.elnahas.2025" target="_blank"><li><i class="fa-brands fa-facebook"></i></li></a>
+                  <a href="https://www.instagram.com/ahmedashrafelnahas?igsh=MWNzczNiMHRnNTg3eA==" target="_blank"><li><i class="fa-brands fa-instagram"></i></li></a>
+                  <a href="https://github.com/Ahmed-Elnahas55" target="_blank"><li><i class="fa-brands fa-github"></i></li></a>
+                  <a href="https://www.linkedin.com/in/ahmed-ashraf-3548a834a/" target="_blank"><li><i class="fa-brands fa-linkedin"></i></li></a>
+                  <a href="https://x.com/AhmedAshra85529?t=QWqHtYrHlFRi1OLg273wyw&s=09" target="_blank"><li><i class="fa-brands fa-x-twitter"></i></li></a>
+                </ul>
+              </div>
             </div>
-            <div class="detiles">
-              <h5>Expert Management</h5>
-              <p>Incidunt odit rerum tenetur alias architecto asperiores omnis cumque doloribus aperiam numquam! Eligendi corrupti, molestias laborum dolores quod nisi vitae voluptate ipsa? In tempore voluptate ducimus officia id, aspernatur nihil. Tempore laborum nesciunt ut veniam, nemo officia ullam repudiandae repellat veritatis unde reiciendis possimus animi autem natus</p>
-            </div>
-          </div>
-          <div class="box">
-            <div class="img">
-              <img src="images/w2.png" loading="lazy">
-            </div>
-            <div class="detiles">
-              <h5>Secure Investment</h5>
-              <p>Incidunt odit rerum tenetur alias architecto asperiores omnis cumque doloribus aperiam numquam! Eligendi corrupti, molestias laborum dolores quod nisi vitae voluptate ipsa? In tempore voluptate ducimus officia id, aspernatur nihil. Tempore laborum nesciunt ut veniam, nemo officia ullam repudiandae repellat veritatis unde reiciendis possimus animi autem natus</p>
-            </div>
-          </div>
-          <div class="box">
-            <div class="img">
-              <img src="images/w3.png" loading="lazy">
-            </div>
-            <div class="detiles">
-              <h5>Instant Trading</h5>
-              <p>Incidunt odit rerum tenetur alias architecto asperiores omnis cumque doloribus aperiam numquam! Eligendi corrupti, molestias laborum dolores quod nisi vitae voluptate ipsa? In tempore voluptate ducimus officia id, aspernatur nihil. Tempore laborum nesciunt ut veniam, nemo officia ullam repudiandae repellat veritatis unde reiciendis possimus animi autem natus</p>
-            </div>
-          </div>
-          <div class="box">
-            <div class="img">
-              <img src="images/w4.png" loading="lazy">
-            </div>
-            <div class="detiles">
-              <h5>Happy Customers</h5>
-              <p>Incidunt odit rerum tenetur alias architecto asperiores omnis cumque doloribus aperiam numquam! Eligendi corrupti, molestias laborum dolores quod nisi vitae voluptate ipsa? In tempore voluptate ducimus officia id, aspernatur nihil. Tempore laborum nesciunt ut veniam, nemo officia ullam repudiandae repellat veritatis unde reiciendis possimus animi autem natus</p>
+            <div class="inputs">
+              <form action="https://formsubmit.co/ahmedelnahas55u@gmail.com" method="POST">
+                <input class="main-input" type="text" name="name" placeholder="Your Name"/>
+                <input class="main-input" type="email" name="email" placeholder="Your Email"/>
+                <input class="main-input" type="phone" name="phone" placeholder="Your Phone"/>
+                <textarea class="main-input" name="message" placeholder="Your Message"></textarea>
+                <button type="submit">submit</button>
+              </form>
             </div>
           </div>
-        </div>
-        <div class="btn">
-          <a href="#">Read More</a>
         </div>
       </div>
-     <!-- End Why -->
-      <!-- strat team -->
-       <div class="team" id="Team">
-        <div class="main-title">
-          <h2 style="color: white;">Our <span>Team</span></h2>
-        </div>
-        <div class="container">
-          <div class="box">
-            <div class="pic">
-              <img src="images/team-1.jpg" loading="lazy">
-            </div>
-            <div class="text">
-              <h5>Joseph Brown</h5>
-              <p>Marketing Head</p>
-            </div>
-            <div class="social">
-              <a href="#"><i class="fa-brands fa-facebook"></i></i></a>                
-              <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>                
-              <a href="#"><i class="fa-brands fa-linkedin"></i></i></a>                              
-              <a href="#"><i class="fa-brands fa-instagram"></i></a>                              
-              <a href="#" class="youtube"><i class="fa-brands fa-youtube"></i></a>  
-            </div>
-          </div>
-          <div class="box">
-            <div class="pic">
-              <img src="images/team-2.jpg" loading="lazy">
-            </div>
-            <div class="text">
-              <h5>Nancy White</h5>
-              <p>Marketing Head</p>
-            </div>
-            <div class="social">
-              <a href="#"><i class="fa-brands fa-facebook"></i></i></a>                
-              <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>                 
-              <a href="#"><i class="fa-brands fa-linkedin"></i></i></a>                              
-              <a href="#"><i class="fa-brands fa-instagram"></i></a>                              
-              <a href="#" class="youtube"><i class="fa-brands fa-youtube"></i></a>   
-            </div>
-          </div>
-          <div class="box">
-            <div class="pic">
-              <img src="images/team-3.jpg" loading="lazy">
-            </div>
-            <div class="text">
-              <h5>Earl Martinez</h5>
-              <p>Marketing Head</p>
-            </div>
-            <div class="social">
-              <a href="#"><i class="fa-brands fa-facebook"></i></i></a>                
-              <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>                 
-              <a href="#"><i class="fa-brands fa-linkedin"></i></i></a>                              
-              <a href="#"><i class="fa-brands fa-instagram"></i></a>                              
-              <a href="#" class="youtube"><i class="fa-brands fa-youtube"></i></a>   
-            </div>
-          </div>
-          <div class="box">
-            <div class="pic">
-              <img src="images/team-4.jpg" loading="lazy">
-            </div>
-            <div class="text">
-              <h5>Josephine Allard</h5>
-              <p>Marketing Head</p>
-            </div>
-            <div class="social">
-              <a href="#"><i class="fa-brands fa-facebook"></i></i></a>                
-              <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>                  
-              <a href="#"><i class="fa-brands fa-linkedin"></i></i></a>                              
-              <a href="#"><i class="fa-brands fa-instagram"></i></a>                              
-              <a href="#" class="youtube"><i class="fa-brands fa-youtube"></i></a>   
-            </div>
-          </div>
-        </div>
-       </div>
-      <!-- End team -->
-       <!-- start Customers -->
-        <div class="Customers">
-          <div class="main-title">
-            <h2>What says our <span>Customers</span></h2>
-          </div>
-          <div class="container">
-            <div class="box">
-              <div class="photo">
-                <img src="images/client1.jpg" loading="lazy">
-              </div>
-              <div class="parent">
-                <div class="client-id">
-                  <div class="client-info">
-                    <h6>LusDen</h6>
-                    <p>magna aliqua. Ut</p>
-                  </div>
-                  <i class="fa-solid fa-quote-left"></i>
-                </div>
-                <p class="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p>
-              </div>
-            </div>
-            <div class="box">
-              <div class="photo">
-                <img src="images/client2.jpg" loading="lazy">
-              </div>
-              <div class="parent">
-                <div class="client-id">
-                  <div class="client-info">
-                    <h6>Zen Court</h6>
-                    <p>magna aliqua. Ut</p>
-                  </div>
-                  <i class="fa-solid fa-quote-left"></i>
-                </div>
-                <p class="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p>
-                </div>
-            </div>
-          </div>
-        </div>
-       <!-- End Customers -->
-        <!-- start footer -->
-         <div class="footer">
-          <div class="container">
-            <div class="box-1">
-              <div class="detiles">
-                <h4>Address</h4>
-                <div class="contact">
-                  <a href="#"><i class="fa-solid fa-location-dot"><span>location</span></i> </a>
-                  <a href="#"><i class="fa-solid fa-phone"><span>Call +01 1234567890</span></i></a>
-                  <a href="#"><i class="fa-solid fa-envelope"><span>demo@gmail.com</span></i></a>
-                </div>
-              </div>
-              <div class="social">
-                <a href="#"><i class="fa-brands fa-facebook"></i></i></a>
-                <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>                              
-                <a href="#" class="youtube"><i class="fa-brands fa-youtube"></i></a> 
-              </div>
-            </div>
-            <div class="box-2">
-              <div class="detils-info">
-                <h4>Info</h4>
-                <p>necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful</p>
-              </div>
-            </div>
-            <!-- strat box-3 -->
-             <div class="box-3">
-              <div class="detils-info">
-                <h4>Links</h4>
-                <div class="links">
-                  <a href="#Home">Home</a>
-                  <a href="#services">Services</a>
-                  <a href="#about">About</a>
-                  <a href="#why">Why Us</a>
-                  <a href="#Team">Team</a>
-                </div>
-              </div>
-             </div>
-            <!-- End box-3 -->
-             <!-- strat box-4 -->
-              <div class="box-4">
-                <h4>Subscribe</h4>
-                <form action="#">
-                  <input type="text" placeholder="Enter email">
-                  <button type="submit">Subscribe</button>
-                </form>
-              </div>
-             <!-- End box-4 -->
-          </div>
-          <div class="text-footer">
-            <div class="footer-container">
-              <p>
-                &copy; <span id="displayYear">2025</span> All Rights Reserved ByFree Html Templates
-              </p>
-            </div>
-          </div>
-         </div>
-        <!-- End footer -->
+     <!-- End contact -->
+      <!-- strat footer -->
+       <div class="footer">&copy; 2025 <span>AhmedElnahas</span> All Right Reserved</div>
+      <!-- End footer -->
+  <button id="btn"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <script src="js/main.js"></script>
 </body>
 </html>
